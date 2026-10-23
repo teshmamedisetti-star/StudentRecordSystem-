@@ -1,52 +1,47 @@
 # Student Record Management System
 
-## Project Description
-The Student Record Management System is a Python Flask web application used to manage student information easily. It allows users to add, view, search, edit, and delete student records. Student data is stored in a JSON file for persistence.
+## Project Overview
+A web-based application developed using Python Flask, HTML, CSS, and JavaScript to manage student records easily.
 
 ## Features
-- Add new student records
-- View all student records
-- Search for students
+- Add student records
+- View student information
+- Search student records
 - Edit student details
 - Delete student records
-- Validate email addresses
-- Validate GPA between 0 and 10
-- Store data in a JSON file
-- Display error and success messages
+- Validate email addresses and GPA values
 
 ## Technologies Used
 - Python
 - Flask
-- HTML
-- CSS
-- JSON
+- HTML, CSS, JavaScript
+- JSON for data storage
+- Git and GitHub
+- Render for deployment
 
-## Project Structure
-```text
-StudentRecordSystem/
-├── app.py
-├── students.json
-├── README.md
-└── templates/
-    ├── index.html
-    └── edit.html
-```
+## Live Demo
+https://studentrecordsystem-7lj5.onrender.com
 
-## Requirements
-- Python 3
-- Flask
+## GitHub Repository
+https://github.com/teshmamedisetti-star/StudentRecordSystem-
 
-## How to Run
-1. Open a terminal in the project folder.
-2. Install Flask:
-   `python -m pip install flask`
-3. Run the application:
+## How to Run Locally
+1. Clone this repository.
+2. Install dependencies:
+   `pip install -r requirements.txt`
+3. Start the application:
    `python app.py`
-4. Open your browser and visit:
-   `http://127.0.0.1:5000`
+4. Open the local URL displayed in the terminal.
 
-## Data Storage
-Student records are stored in `students.json`. Changes are saved to the file so records remain available after restarting the application.
+## Learning Outcomes
+- Learned Flask routes and web application development
+- Implemented CRUD operations
+- Added input validation
+- Practiced Git and GitHub
+- Deployed a web application using Render
 
-## Author
-Student Developer
+## Future Enhancements
+- Integrate SQLite or MySQL
+- Improve data persistence
+- Add user authentication
+- Improve security and usability
